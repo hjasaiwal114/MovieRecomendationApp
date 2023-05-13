@@ -1,6 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from "react";
+
+import { fetchDATAFromApi } from "./utils/api";
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return <div className="App">App</div>
     
