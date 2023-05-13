@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { fetchDATAFromApi } from "./utils/api";
+import { fetchDataFromApi } from "./utils/api";
 
 function App() {
 
