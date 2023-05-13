@@ -8,4 +8,10 @@ const headers = {
     TMDB_TOKEN,
 };
 
-export const fetchDATAFromApi = async(url)
+export const fetchDATAFromApi = async(url, params) => {
+    try {
+
+    } catch (err) {
+        console.log(err)
+    }
+}
