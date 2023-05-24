@@ -4,7 +4,10 @@ import { createSlice } from '@reduxjs/toolkit'
 
 export const counterSlice = createSlice({
   name: 'home',
-  initialState,
+  initialState: {
+    url: {},
+    genres: {}
+  },
   reducers: {
     increment: (state) => {
       // Redux Toolkit allows us to write "mutating" logic in reducers. It
