@@ -8,7 +8,7 @@ const headers = {
     TMDB_TOKEN,
 };
 
-export const fetchDATAFromApi = async(url, params) => {
+export const fetchDataFromApi = async(url, params) => {
     try {
         const{data} = await axios.get(BASE_URL + url, {
             headers,
