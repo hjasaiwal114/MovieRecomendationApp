@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import { fetchDataFromApi } from "./utils/api";
 
 import { useSelector, useDispatch } from 'react-redux'
@@ -31,12 +31,8 @@ function App() {
           });
   };
 
-  return (
-      <div className="App">
-          App
-          {url?.total_pages}
-      </div>
-  );
+  return (<BrowserRouter>
+  </BrowserRouter>);
     
 }
 
